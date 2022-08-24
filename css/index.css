@@ -39,8 +39,7 @@ nav {
 }
 
 
-.intro-section {
-    
+.intro-section { 
     width: 90%;
     margin: 2rem auto;
     display: grid;
@@ -239,7 +238,8 @@ nav {
 
     /* ---------LARGE-SCREEN---------------  */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1020px) {
+    
     /* --------navbar-------------- */
     nav {   
        flex-wrap: wrap;
@@ -258,8 +258,6 @@ nav {
 
 /* -----------left-section-------------- */
 
-
-
 .new-product {
     font-size: 2rem;
     text-align: center;
@@ -270,6 +268,7 @@ nav {
 }
 
 .left-section {
+    text-align: center;
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 4rem
@@ -279,6 +278,47 @@ nav {
     font-size: 3rem;
     margin-top: 1rem;
 }
+
+.text {
+    padding-right:0;
+    text-align: center;
+
+}
+
+
+.sub-headlines {
+    
+    margin:0;
+    text-align: start;
+    margin-left: 10rem;
+    margin-top: 2rem
+}
+
+
+
+
+
+/* -----------right-section-------------- */
+
+.discount {
+    display: block;
+    position: absolute;
+    top: 58%;
+    right: 70%;
+    width: 10rem;
+    filter: drop-shadow(-4px 3px 2px rgba(171,171,171));
+
+}
+
+.discount-content {
+    
+    position: absolute;
+    top: 66%;
+    right: 74%;
+    color: #ffffff;
+}
+
+
 
  }
 
@@ -336,20 +376,20 @@ nav {
 /* -----------right-section-------------- */
     .discount {
         width: 6rem;
-        right: 75%;
+        right: 72%;
     }
 
     .discount-content {
     
         position: absolute;
         top: 66%;
-        right: 78%;
+        right: 76%;
         color: #ffffff;
     }
     
     .discount-content h1 {
           
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           text-align: center;
     }
     .discount-content h4 {
