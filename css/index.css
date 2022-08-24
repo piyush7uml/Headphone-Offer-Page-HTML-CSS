@@ -212,3 +212,151 @@ nav {
     background-color: #000000;
 }
 
+
+
+    /* ------------------------------------------------------- */
+    /* -----------RESPONSIVE USING MEDIA QUERY---------------- */
+    /* ------------------------------------------------------- */
+
+   
+   /* ---------LARGER-SCREEN---------------  */
+
+    @media screen and (max-width: 1200px) {
+
+        .left-section h1 {
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+
+        .sub-headlines {
+    
+            margin-left: 1rem;
+        }
+
+    }
+
+
+
+    /* ---------LARGE-SCREEN---------------  */
+
+@media screen and (max-width: 900px) {
+    /* --------navbar-------------- */
+    nav {   
+       flex-wrap: wrap;
+       justify-content: center;  
+   }
+
+   .nav-items {
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+
+.intro-section {
+    grid-template-columns: 1fr;
+}
+
+/* -----------left-section-------------- */
+
+
+
+.new-product {
+    font-size: 2rem;
+    text-align: center;
+}
+
+[alt="circles"] {
+    width: 2rem;
+}
+
+.left-section {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem
+}
+
+.left-section h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+ }
+
+
+
+
+/* ---------MEDIUM-SCREEN---------------  */
+
+@media screen and (max-width: 640px) {
+
+/* --------Nav----------- */
+
+    .nav-item {
+        font-family: 'Poppins'; 
+          margin: 0 1.2rem;
+          font-size: 1rem;
+    }
+
+/* --------headphone-image----------- */
+    [alt="headphone"] {
+        display: inline-block;
+        width: 20rem;
+    }
+
+/* -----------left-section-------------- */
+    .left-section {
+        text-align: center;
+    }
+
+    .sub-headline span {
+        font-family: 'Poppins';
+        font-weight: 200;
+        font-size: 1rem;
+        display: inline-block;
+        position: relative;
+        bottom: 0.3rem;
+        left: 0.5rem;
+    
+    }
+
+    .sub-headlines {
+    
+        margin:0;
+        text-align: start;
+        margin-left: 5rem;
+        margin-top: 2rem
+    }
+
+    .text {
+        padding-right:0;
+        text-align: center;
+    
+    }
+
+/* -----------right-section-------------- */
+    .discount {
+        width: 6rem;
+        right: 75%;
+    }
+
+    .discount-content {
+    
+        position: absolute;
+        top: 66%;
+        right: 78%;
+        color: #ffffff;
+    }
+    
+    .discount-content h1 {
+          
+          font-size: 1.5rem;
+          text-align: center;
+    }
+    .discount-content h4 {
+        
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
