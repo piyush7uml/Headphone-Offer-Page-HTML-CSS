@@ -252,9 +252,12 @@ nav {
 }
 
 
+/* -----------intro-section-------------- */
+
 .intro-section {
     grid-template-columns: 1fr;
 }
+
 
 /* -----------left-section-------------- */
 
@@ -268,6 +271,7 @@ nav {
 }
 
 .left-section {
+    order: 2;
     text-align: center;
     margin: 0 auto;
     margin-top: 2rem;
@@ -299,6 +303,10 @@ nav {
 
 
 /* -----------right-section-------------- */
+
+.right-section {
+    order:-1
+}
 
 .discount {
     display: block;
